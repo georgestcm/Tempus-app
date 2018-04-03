@@ -1,0 +1,62 @@
+$main-color: #08171f;
+$text-color: white;
+body {
+  background-color: #08171f;
+}
+
+div#upDown {
+  display: none;
+}
+
+div#main_intro {
+  text-align: center;
+  position: relative;
+  top: 87px;
+
+  img[src="images/logo.png"] {
+    height: 190px;
+    width: 190px;
+  }
+
+   h2 {
+     color: $text-color;
+     padding-bottom: 4px;
+     margin: 0;
+   }
+
+   p {
+     padding: 31px 34px 41px 38px;
+     margin: 0;
+     color: gray;
+   }
+
+   button {
+     height: 38px;
+     width: 72px;
+     font-size: 15px;
+     border: 0;
+     border-radius: 6px;
+     color: #41687c;
+   }
+
+}
+
+div#main {
+ text-align: center;
+position: relative;
+top: 170px;
+color: $text-color;
+font-size: 31px;
+
+img[src="images/cancel.png"] {
+  padding-top: 50px;
+}
+
+img[src="images/up-arrow.png"] {
+  padding-bottom: 38px;
+
+}
+
+
+
+}

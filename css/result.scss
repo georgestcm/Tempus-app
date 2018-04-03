@@ -1,0 +1,52 @@
+
+$background-color: #08171f;
+body {
+
+background-color: $background-color;
+}
+
+
+.intro_wrapper {
+  text-align: center;
+  p {
+    color: white;
+    font-size: 18px;
+  }
+  img {
+    height: 150px;
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+}
+
+.results {
+  text-align: center;
+
+  #paraOne {
+    color: #00796B;
+    font-size: 17px;
+    margin-top: 33px;
+    padding: 7px 0 7px 0;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 5px 5px 2px #000000;
+  }
+  #paraTwo {
+    color: gray;
+    margin-top: 40px;
+  }
+}
+
+.retake {
+  text-align: center;
+  margin-top: 54px;
+  button {
+    border: 0;
+    border-radius: 2px;
+    background-color: white;
+    height: 33px;
+
+
+  }
+}

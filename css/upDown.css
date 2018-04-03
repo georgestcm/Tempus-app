@@ -1,0 +1,55 @@
+body {
+  background-color: #08171f;
+}
+
+div#upDown {
+  display: none;
+}
+
+div#main_intro {
+  text-align: center;
+  position: relative;
+  top: 87px;
+}
+
+div#main_intro img[src="images/logo.png"] {
+  height: 190px;
+  width: 190px;
+}
+
+div#main_intro h2 {
+  color: white;
+  padding-bottom: 4px;
+  margin: 0;
+}
+
+div#main_intro p {
+  padding: 31px 34px 41px 38px;
+  margin: 0;
+  color: gray;
+}
+
+div#main_intro button {
+  height: 38px;
+  width: 72px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 6px;
+  color: #41687c;
+}
+
+div#main {
+  text-align: center;
+  position: relative;
+  top: 170px;
+  color: white;
+  font-size: 31px;
+}
+
+div#main img[src="images/cancel.png"] {
+  padding-top: 50px;
+}
+
+div#main img[src="images/up-arrow.png"] {
+  padding-bottom: 38px;
+}

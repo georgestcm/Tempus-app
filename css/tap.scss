@@ -1,0 +1,44 @@
+$text-color: white;
+$background-color: #08171f;
+
+body {
+  background-color: $background-color;
+}
+
+.head_wrapper {
+  color: $text-color;
+  text-align: center;
+
+}
+
+.selected {
+  background-color: gray;
+  color: white !important;
+}
+
+div.sectionOne {
+  display: grid;
+
+  button {
+    margin-bottom: 15px;
+    font-size: 17px;
+    border-radius: 15px;
+    color: gray;
+    border: 0;
+  }
+}
+
+.nextBtn {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.nextBtn button {
+  height: 38px;
+  width: 72px;
+  cursor: pointer;
+  font-size: 20px;
+  border: 0;
+  border-radius: 6px;
+  color: #41687c;
+ }
